@@ -80,7 +80,7 @@ function Footer() {
               <p>📍 San Isidro</p>
 
               <a
-                href="https://wa.me/51910632406"
+                href="https://wa.me/51910632406?text=Hola%20PodoCare%2C%20vi%20su%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20sus%20servicios."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block font-semibold text-emerald-400 transition hover:text-emerald-300"
