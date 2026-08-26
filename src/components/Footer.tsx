@@ -85,7 +85,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 className="inline-block font-semibold text-emerald-400 transition hover:text-emerald-300"
               >
-                WhatsApp: +51 910 632 406
+                💬 Escríbenos por WhatsApp
               </a>
 
             </div>
