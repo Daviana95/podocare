@@ -63,17 +63,17 @@ function Hero() {
           </p>
         </div>
 
-        {/* Imagen */}
+        {/* Imagen con Marco Actualizado */}
         <div className="relative">
-          <div className="overflow-hidden rounded-3xl border-2 border-[#315A72]/30 bg-[#F4F1E8] p-3 shadow-xl">
+          <div className="overflow-hidden rounded-3xl border-4 border-white bg-white shadow-2xl transition-transform duration-300 hover:scale-[1.01]">
             <img
               src="/podocare-hero.jpg"
               alt="Especialista de PodoCare realizando atención podológica"
-              className="h-[500px] w-full object-contain"
+              className="h-[500px] w-full object-cover rounded-2xl"
             />
           </div>
 
-          <div className="absolute -bottom-5 -left-5 rounded-2xl bg-white p-5 shadow-lg">
+          <div className="absolute -bottom-5 -left-5 rounded-2xl bg-white p-5 shadow-xl border border-stone-100">
             <p className="text-sm font-semibold text-stone-900">
               Atención profesional
             </p>
