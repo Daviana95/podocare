@@ -64,23 +64,20 @@ function Hero() {
         </div>
 
         {/* Imagen con Marco Actualizado */}
-        <div className="relative">
-          <div className="overflow-hidden rounded-3xl border-2 border-emerald-700 bg-white p-1.5 shadow-2xl transition-all duration-300 hover:scale-[1.01]">
-            <div className="overflow-hidden rounded-2xl border-2 border-emerald-700/50">
-              <img
-                src="/podocare-hero.jpg"
-                alt="Especialista de PodoCare realizando atención podológica"
-                className="h-[500px] w-full object-cover"
-              />
-            </div>
+        <div className="relative flex items-center justify-center">
+          <div className="overflow-hidden rounded-3xl border-2 border-emerald-700 bg-white p-2 shadow-xl">
+            <img
+              src="/podocare-hero.jpg"
+              alt="Especialista de PodoCare realizando atención podológica"
+              className="h-auto max-h-[500px] w-full object-contain rounded-2xl"
+            />
           </div>
 
-          <div className="absolute -bottom-5 -left-5 rounded-2xl bg-white p-5 shadow-lg border border-emerald-700/20">
-            <p className="text-sm font-semibold text-emerald-800">
+          <div className="absolute -bottom-5 -left-5 rounded-2xl bg-white p-4 shadow-lg border border-emerald-100">
+            <p className="text-sm font-semibold text-stone-900">
               Atención profesional
             </p>
-
-            <p className="mt-1 text-xs text-emerald-700/70">
+            <p className="mt-0.5 text-xs text-stone-500">
               Higiene y bioseguridad
             </p>
           </div>
