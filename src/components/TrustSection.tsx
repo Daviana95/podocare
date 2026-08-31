@@ -27,21 +27,24 @@ const trustItems = [
 
 function TrustSection() {
   return (
-    <section id="nosotros" className="bg-white py-20 md:py-28">
+    <section
+      id="nosotros"
+      className="bg-[#EAF1F5] py-20 md:py-28"
+    >
       <div className="mx-auto max-w-7xl px-6">
         
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-bold uppercase tracking-widest text-[#315A72]">
-            ¿Por qué PodoCare?
+            ¿Por qué elegirnos?
           </span>
 
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">
-            Tu salud merece más que una atención común
+            Tu salud merece una atención profesional y segura
           </h2>
 
           <p className="mt-5 text-lg leading-relaxed text-stone-600">
             Combinamos experiencia clínica, formación especializada y
-            protocolos de bioseguridad para brindar una atención podológica
+            protocolos de bioseguridad para brindar atención podológica
             profesional directamente en tu hogar.
           </p>
         </div>
@@ -53,9 +56,9 @@ function TrustSection() {
             return (
               <article
                 key={item.title}
-                className="rounded-3xl border border-stone-200 bg-stone-50 p-8 text-center transition duration-300 hover:-translate-y-1 hover:shadow-md"
+                className="group rounded-3xl border border-[#315A72]/10 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#315A72]/25 hover:shadow-lg"
               >
-                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#E7EEF2] text-[#315A72]">
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#E7EEF2] text-[#315A72] transition-all duration-300 group-hover:bg-[#315A72] group-hover:text-white">
                   <Icon size={28} strokeWidth={1.7} />
                 </div>
 

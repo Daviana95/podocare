@@ -5,13 +5,13 @@ function Hero() {
 
         {/* Texto */}
         <div className="max-w-xl">
-          <span className="mb-5 inline-block rounded-full bg-emerald-100 px-4 py-2 text-sm font-semibold text-emerald-800">
+          <span className="mb-5 inline-block rounded-full bg-[#E7EEF2] px-4 py-2 text-sm font-semibold text-[#315A72]">
             ATENCIÓN PODOLÓGICA PROFESIONAL A DOMICILIO
           </span>
 
           <h2 className="text-4xl font-bold leading-tight tracking-tight text-stone-900 md:text-6xl">
             Podología profesional,
-            <span className="text-emerald-700">
+            <span className="text-[#315A72]">
               {' '}directamente en tu hogar.
             </span>
           </h2>
@@ -24,15 +24,15 @@ function Hero() {
 
           {/* Credenciales */}
           <div className="mt-8 flex flex-wrap gap-3">
-            <span className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-700">
+            <span className="rounded-full border border-[#315A72]/20 bg-white px-4 py-2 text-sm font-medium text-stone-700 shadow-sm">
               ✓ 15 años de experiencia
             </span>
 
-            <span className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-700">
+            <span className="rounded-full border border-[#315A72]/20 bg-white px-4 py-2 text-sm font-medium text-stone-700 shadow-sm">
               ✓ Podología Clínica
             </span>
 
-            <span className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-700">
+            <span className="rounded-full border border-[#315A72]/20 bg-white px-4 py-2 text-sm font-medium text-stone-700 shadow-sm">
               ✓ Bioseguridad
             </span>
           </div>
@@ -40,17 +40,17 @@ function Hero() {
           {/* Botones */}
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a
-              href="https://wa.me/51910632406?text=Hola%20PodoCare%2C%20quiero%20agendar%20una%20atenci%C3%B3n."
+              href="https://wa.me/51910632406?text=Hola%2C%20quiero%20agendar%20una%20atenci%C3%B3n%20de%20Podolog%C3%ADa%20y%20Curaciones%20Especializadas."
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-emerald-600 px-7 py-3.5 text-center font-semibold text-white shadow-md transition hover:bg-emerald-700"
+              className="rounded-full bg-[#315A72] px-7 py-3.5 text-center font-semibold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#27485C] hover:shadow-lg"
             >
               Reservar por WhatsApp
             </a>
 
             <a
               href="#servicios"
-              className="rounded-full border border-stone-300 bg-white px-7 py-3.5 text-center font-semibold text-stone-700 transition hover:bg-stone-100"
+              className="rounded-full border border-[#315A72]/20 bg-white px-7 py-3.5 text-center font-semibold text-[#315A72] shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#E7EEF2]"
             >
               Ver servicios
             </a>
@@ -63,21 +63,22 @@ function Hero() {
           </p>
         </div>
 
-        {/* Imagen con Marco Actualizado */}
+        {/* Imagen */}
         <div className="relative flex items-center justify-center">
-          <div className="overflow-hidden rounded-3xl border-2 border-emerald-700 bg-white p-2 shadow-xl">
+          <div className="overflow-hidden rounded-[2rem] border-2 border-[#315A72] bg-white p-2 shadow-[0_20px_45px_rgba(49,90,114,0.18)]">
             <img
               src="/podocare-hero.jpg"
-              alt="Especialista de PodoCare realizando atención podológica"
-              className="h-auto max-h-[500px] w-full object-contain rounded-2xl"
+              alt="Especialista realizando atención podológica profesional"
+              className="h-auto max-h-[500px] w-full rounded-[1.5rem] object-contain"
             />
           </div>
 
-          <div className="absolute -bottom-5 -left-5 rounded-2xl bg-white p-4 shadow-lg border border-emerald-100">
+          <div className="absolute -bottom-5 -left-5 rounded-2xl border border-[#315A72]/15 bg-white p-4 shadow-lg">
             <p className="text-sm font-semibold text-stone-900">
               Atención profesional
             </p>
-            <p className="mt-0.5 text-xs text-stone-500">
+
+            <p className="mt-0.5 text-xs text-[#315A72]">
               Higiene y bioseguridad
             </p>
           </div>

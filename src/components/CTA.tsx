@@ -8,12 +8,12 @@ function CTA() {
 
           {/* Detalles decorativos */}
           <div className="absolute -right-20 -top-20 h-48 w-48 rounded-full bg-white/10" />
-          <div className="absolute -bottom-24 -left-16 h-56 w-56 rounded-full bg-emerald-400/10" />
+          <div className="absolute -bottom-24 -left-16 h-56 w-56 rounded-full bg-[#E7EEF2]/10" />
 
           <div className="relative">
-            
+
             {/* Icono */}
-            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-white/10 text-white">
+            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-white/10 bg-white/10 text-white">
               <MessageCircle size={27} strokeWidth={1.8} />
             </div>
 
@@ -32,10 +32,10 @@ function CTA() {
 
             {/* Botón */}
             <a
-              href="https://wa.me/51910632406?text=Hola%20PodoCare%2C%20quiero%20agendar%20una%20atenci%C3%B3n."
+              href="https://wa.me/51910632406?text=Hola%2C%20quiero%20agendar%20una%20atenci%C3%B3n%20de%20Podolog%C3%ADa%20y%20Curaciones%20Especializadas."
               target="_blank"
               rel="noopener noreferrer"
-              className="group mx-auto mt-9 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 font-bold text-[#315A72] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              className="group mx-auto mt-9 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 font-bold text-[#315A72] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-[#F4F1E8] hover:shadow-xl"
             >
               Reservar por WhatsApp
 

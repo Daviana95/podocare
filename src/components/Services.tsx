@@ -69,10 +69,12 @@ const services = [
 
 function Services() {
   return (
-    <section id="servicios" className="bg-stone-50 py-20 md:py-28">
+    <section id="servicios" className="bg-white py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
+
+        {/* Encabezado */}
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-sm font-bold uppercase tracking-widest text-emerald-700">
+          <span className="text-sm font-bold uppercase tracking-widest text-[#315A72]">
             Nuestros servicios
           </span>
 
@@ -86,21 +88,22 @@ function Services() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {/* Tarjetas */}
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => {
             const Icon = service.icon
 
             return (
               <article
                 key={service.title}
-                className="group rounded-3xl border border-stone-200 bg-white p-7 transition duration-300 hover:-translate-y-1 hover:border-emerald-200 hover:shadow-lg"
+                className="group rounded-3xl border border-[#315A72]/10 bg-[#FAF8F3] p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#315A72]/30 hover:bg-white hover:shadow-xl"
               >
                 <div className="flex items-center justify-between">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-100 text-emerald-700 transition-all duration-300 group-hover:bg-[#315A72] group-hover:text-white">
-  <Icon size={23} strokeWidth={1.8} />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#E7EEF2] text-[#315A72] transition-all duration-300 group-hover:bg-[#315A72] group-hover:text-white">
+                    <Icon size={23} strokeWidth={1.8} />
                   </div>
 
-                  <span className="text-sm font-bold text-stone-300">
+                  <span className="text-sm font-bold text-[#315A72]/25">
                     {String(index + 1).padStart(2, '0')}
                   </span>
                 </div>
@@ -114,15 +117,17 @@ function Services() {
                 </p>
 
                 <a
-                  
-  href={`https://wa.me/51910632406?text=${encodeURIComponent(
-    `Hola PodoCare, estoy interesado/a en el servicio de ${service.title}. Me gustaría recibir información y consultar disponibilidad.`
-  )}`}
-  target="_blank"
-  rel="noopener noreferrer"
-                  className="mt-5 inline-flex text-sm font-semibold text-emerald-700 transition hover:text-emerald-900"
+                  href={`https://wa.me/51910632406?text=${encodeURIComponent(
+                    `Hola, estoy interesado/a en el servicio de ${service.title} de Podología y Curaciones Especializadas. Me gustaría recibir información y consultar disponibilidad.`
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group/link mt-5 inline-flex items-center gap-1 text-sm font-semibold text-[#315A72] transition hover:text-[#27485C]"
                 >
-                  Consultar servicio →
+                  Consultar servicio
+                  <span className="transition-transform duration-300 group-hover/link:translate-x-1">
+                    →
+                  </span>
                 </a>
               </article>
             )

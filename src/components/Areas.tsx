@@ -4,7 +4,7 @@ const areas = ['Chorrillos', 'Surco', 'Miraflores', 'San Isidro']
 
 function Areas() {
   return (
-    <section id="zonas" className="bg-white py-20 md:py-24">
+    <section id="zonas" className="bg-[#F4F1E8] py-20 md:py-24">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Encabezado */}
@@ -28,9 +28,9 @@ function Areas() {
           {areas.map((area) => (
             <div
               key={area}
-              className="group rounded-3xl border border-stone-200 bg-stone-50 p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#315A72]/30 hover:bg-white hover:shadow-lg"
+              className="group rounded-3xl border border-[#315A72]/10 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#315A72]/30 hover:shadow-xl"
             >
-              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-[#315A72]/10 text-[#315A72] transition-all duration-300 group-hover:bg-[#315A72] group-hover:text-white">
+              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-[#E7EEF2] text-[#315A72] transition-all duration-300 group-hover:bg-[#315A72] group-hover:text-white">
                 <MapPin size={25} strokeWidth={1.8} />
               </div>
 

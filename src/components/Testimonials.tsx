@@ -18,7 +18,7 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <section className="bg-stone-50 py-20 md:py-28">
+    <section className="bg-[#EAF1F5] py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Encabezado */}
@@ -42,11 +42,11 @@ function Testimonials() {
           {testimonials.map((testimonial) => (
             <article
               key={testimonial.name}
-              className="group relative rounded-3xl border border-stone-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#315A72]/20 hover:shadow-lg"
+              className="group relative rounded-3xl border border-[#315A72]/10 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#315A72]/30 hover:shadow-xl"
             >
 
               {/* Comilla */}
-              <div className="absolute right-7 top-5 text-5xl font-serif leading-none text-[#315A72]/10">
+              <div className="absolute right-7 top-5 font-serif text-5xl leading-none text-[#315A72]/10">
                 “
               </div>
 
@@ -65,12 +65,12 @@ function Testimonials() {
               </p>
 
               {/* Cliente */}
-              <div className="mt-6 border-t border-stone-100 pt-5">
+              <div className="mt-6 border-t border-[#315A72]/10 pt-5">
                 <p className="font-bold text-stone-900">
                   {testimonial.name}
                 </p>
 
-                <p className="mt-1 text-sm text-stone-500">
+                <p className="mt-1 text-sm font-medium text-[#315A72]">
                   {testimonial.service}
                 </p>
               </div>
