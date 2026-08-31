@@ -29,7 +29,7 @@ function FinalCTA() {
             </p>
 
             <a
-              href="https://wa.me/51910632406?text=Hola%20PodoCare%2C%20quiero%20agendar%20una%20atenci%C3%B3n."
+              href="https://wa.me/51910632406?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20de%20Podolog%C3%ADa%20y%20Curaciones%20Especializadas%20y%20me%20gustar%C3%ADa%20agendar%20una%20atenci%C3%B3n."
               target="_blank"
               rel="noopener noreferrer"
               className="group mx-auto mt-8 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 font-semibold text-[#315A72] shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
